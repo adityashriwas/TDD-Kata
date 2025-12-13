@@ -3,6 +3,8 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import connectDB from "./database/db.js";
+import userRoute from "./routes/user.route.js";
+import sweetRoute from "./routes/sweet.route.js";
 
 import path from "path";
 
@@ -27,7 +29,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 // all the api's
-
+app.use("/api/v1/user", userRoute);
+app.use("/api/v1/sweet", sweetRoute);
 
 
 app.get("/", (req, res) => {

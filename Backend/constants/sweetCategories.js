@@ -1,0 +1,8 @@
+export const SWEET_CATEGORIES = [
+  "CHOCOLATE",
+  "CANDY",
+  "PASTRY",
+  "BAKERY",
+  "NAMKEEN",
+  "TRADITIONAL",
+];
