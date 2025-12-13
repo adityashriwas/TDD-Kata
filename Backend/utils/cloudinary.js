@@ -26,4 +26,3 @@ export const deleteMediaFromCloudinary = async (publicId) => {
     console.log(error);
   }
 };
-
