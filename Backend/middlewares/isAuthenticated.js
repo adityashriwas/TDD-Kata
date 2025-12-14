@@ -17,6 +17,7 @@ const isAuthenticated = async (req, res, next) => {
       });
     }
     req.id = decode.userId;
+    req.role = decode.role; // Add role to request object
     next();
   } catch (error) {
     console.log(error);

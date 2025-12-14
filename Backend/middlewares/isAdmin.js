@@ -1,6 +1,6 @@
 const isAdmin = async (req, res, next) => {
   try {
-    if (req.role !== "ADMIN") {
+    if (req.role !== "admin") {
       return res.status(403).json({
         success: false,
         message: "Access denied. Admin only.",
