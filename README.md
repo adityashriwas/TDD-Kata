@@ -86,9 +86,15 @@ Only **two models** are used, as required by the assessment.
 - POST `/api/v1/sweet/:id/restock` (Admin)
 
 ---
-## Postman Collection link
+# All Public Links 
+### Postman Collection link
 - https://documenter.getpostman.com/view/33901863/2sB3dTs7by
----
+
+### Backend Deployed Link
+- https://tdd-kata.onrender.com
+
+### Frontend Deployed Link
+- https://tdd-kata-six.vercel.app
 
 ## Security & Authorization
 
