@@ -76,14 +76,18 @@ Only **two models** are used, as required by the assessment.
 - GET `/api/v1/user/profile`
 
 ### Sweet Routes
-- POST `/api/v1/sweet/sweets` (Admin)
-- GET `/api/v1/sweet/sweets`
+- POST `/api/v1/sweet/create` (Admin)
+- GET `/api/v1/sweet/get-all-sweets`
 - GET `/api/v1/sweet/search`
 - PUT `/api/v1/sweet/:id` (Admin)
+- GET `/api/v1/sweet/:id`
 - DELETE `/api/v1/sweet/:id` (Admin)
 - POST `/api/v1/sweet/:id/purchase`
 - POST `/api/v1/sweet/:id/restock` (Admin)
 
+---
+## Postman Collection link
+- https://documenter.getpostman.com/view/33901863/2sB3dTs7by
 ---
 
 ## Security & Authorization
