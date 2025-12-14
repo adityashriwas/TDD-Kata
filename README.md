@@ -70,19 +70,19 @@ Only **two models** are used, as required by the assessment.
 ## API Endpoints
 
 ### Auth Routes
-- POST `/api/auth/register`
-- POST `/api/auth/login`
-- POST `/api/auth/logout`
-- GET `/api/auth/profile`
+- POST `/api/v1/user/register`
+- POST `/api/v1/user/login`
+- POST `/api/v1/user/logout`
+- GET `/api/v1/user/profile`
 
 ### Sweet Routes
-- POST `/api/sweets` (Admin)
-- GET `/api/sweets`
-- GET `/api/sweets/search`
-- PUT `/api/sweets/:id` (Admin)
-- DELETE `/api/sweets/:id` (Admin)
-- POST `/api/sweets/:id/purchase`
-- POST `/api/sweets/:id/restock` (Admin)
+- POST `/api/v1/sweet/sweets` (Admin)
+- GET `/api/v1/sweet/sweets`
+- GET `/api/v1/sweet/search`
+- PUT `/api/v1/sweet/:id` (Admin)
+- DELETE `/api/v1/sweet/:id` (Admin)
+- POST `/api/v1/sweet/:id/purchase`
+- POST `/api/v1/sweet/:id/restock` (Admin)
 
 ---
 
@@ -120,7 +120,7 @@ AI tools were used **as a coding assistant**.
 - API design according to assessment
 - And rewite this readme file
 
-### Where AI helped
+### Where AI helped me in backend
 - After I shared my **controller writing style**, I asked for help writing:
   - Purchase and restock logic
 - I explicitly requested the code to be written **in my existing format and style**
@@ -136,27 +136,32 @@ AI tools were used **as a coding assistant**.
 - To avoid common mistakes (race conditions, improper route design)
 
 All architectural decisions, final implementations, and integrations were done by me.
-
 ---
 
+### Where AI helped me in frontend
+- For resolving the API call error like cors error while integrating the APIs.
+- For fast development of UI so that i just need to add the ShadCN componenet and the responsive could be handled easily by AI
+---
+
+# Screenshots of the project
 ![Screenshot](assets/1.png)
 ### Landing page for admin
-
+---
 ![Screenshot](assets/6.png)
 ### Landing page for user
-
+---
 ![Screenshot](assets/3.png)
 ### Sweet filter page
-
+---
 ![Screenshot](assets/4.png)
 ### Admin Dahsboard
-
+---
 ![Screenshot](assets/5.png)
 ### Sweet Details page
-
+---
 ![Screenshot](assets/7.png)
 ### Admin only add sweet page
-
+---
 ![Screenshot](assets/8.png)
 ### Admin only edit sweet page
 
