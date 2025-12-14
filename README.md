@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a backend implementation of a **Sweet Shop Management System** built using **Node.js, Express, MongoDB, and Mongoose**.  
+This project is a backend implementation of a **Sweet Shop Management System** built using **Node.js, Express, MongoDB, Next.js + React.js and Mongoose**.  
 The system provides APIs for authentication, sweet inventory management, and stock handling using role-based access control.
 
 The application is designed according to the given assessment requirements and intentionally avoids unnecessary overengineering.
@@ -19,6 +19,9 @@ The application is designed according to the given assessment requirements and i
 - bcryptjs (Password hashing)
 - Cookie-based authentication
 - RESTful API design
+- Next.js + React.js
+- Tailwind CSS
+- ShadCN UI
 
 ---
 
