@@ -139,3 +139,24 @@ All architectural decisions, final implementations, and integrations were done b
 
 ---
 
+![Screenshot](assets/1.png)
+### Landing page for admin
+
+![Screenshot](assets/6.png)
+### Landing page for user
+
+![Screenshot](assets/3.png)
+### Sweet filter page
+
+![Screenshot](assets/4.png)
+### Admin Dahsboard
+
+![Screenshot](assets/5.png)
+### Sweet Details page
+
+![Screenshot](assets/7.png)
+### Admin only add sweet page
+
+![Screenshot](assets/8.png)
+### Admin only edit sweet page
+
