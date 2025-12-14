@@ -16,7 +16,7 @@ import {
 const router = express.Router();
 
 // Create sweet (ADMIN)
-router.post("/create", isAuthenticated, upload.single('image'), createSweet);
+router.post("/create", isAuthenticated, isAdmin, upload.single('image'), createSweet);
 
 // Get all sweets
 router.get("/get-all-sweets", getAllSweets);
