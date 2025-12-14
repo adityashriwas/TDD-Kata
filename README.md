@@ -1,8 +1,9 @@
-# Sweet Shop Management System – Backend (MERN)
+# Sweet Shop Management System – TDD-Inspired Kata
+
 
 ## Project Overview
 
-This project is a backend implementation of a **Sweet Shop Management System** built using **Node.js, Express, MongoDB, Next.js + React.js and Mongoose**.  
+This project is a full-stack implementation of a **Sweet Shop Management System** built using **Node.js, Express, MongoDB, and Next.js + React.js **.  
 The system provides APIs for authentication, sweet inventory management, and stock handling using role-based access control.
 
 The application is designed according to the given assessment requirements and intentionally avoids unnecessary overengineering.
@@ -11,6 +12,7 @@ The application is designed according to the given assessment requirements and i
 
 ## Tech Stack
 
+### Backend
 - Node.js
 - Express.js
 - MongoDB
@@ -19,6 +21,8 @@ The application is designed according to the given assessment requirements and i
 - bcryptjs (Password hashing)
 - Cookie-based authentication
 - RESTful API design
+
+### Frontend (for demonstration)
 - Next.js + React.js
 - Tailwind CSS
 - ShadCN UI
@@ -99,13 +103,25 @@ Only **two models** are used, as required by the assessment.
 ### Frontend Deployed Link
 - https://tdd-kata-six.vercel.app
 
+## Test Admin Credentials
+
+For evaluation and testing purposes, the following admin credentials can be used:
+
+- Email: a@a.com
+- Password: 123456
+
+Note:
+- These credentials are provided only for testing the application features.
+- All credentials shown in the Postman collection and README are dummy/test data used to demonstrate request and response formats.
+- No real user data or production credentials are used.
+
+
 ## Security & Authorization
 
 - JWT-based authentication
 - Token stored in HttpOnly cookies
 - Protected routes using `isAuthenticated` middleware
 - Admin-only actions protected using `isAdmin` middleware
-- No client-side trust for roles
 
 ---
 
@@ -131,7 +147,6 @@ AI tools were used **as a coding assistant**.
 - Overall backend architecture
 - Validation decisions
 - API design according to assessment
-- And rewite this readme file
 
 ### Where AI helped me in backend
 - After I shared my **controller writing style**, I asked for help writing:
@@ -143,17 +158,21 @@ AI tools were used **as a coding assistant**.
   - Fixing edge cases and improving correctness
 - I reviewed, understood, and integrated the code manually
 
-### How AI was used overall
-- As a **second brain** to validate logic
-- To speed up implementation while maintaining consistency
-- To avoid common mistakes (race conditions, improper route design)
-
-All architectural decisions, final implementations, and integrations were done by me.
 ---
 
 ### Where AI helped me in frontend
 - For resolving the API call error like cors error while integrating the APIs.
 - For fast development of UI so that i just need to add the ShadCN componenet and the responsive could be handled easily by AI
+
+### How AI was used overall
+- As a **second brain** to validate logic
+- To speed up implementation while maintaining consistency
+- To avoid common mistakes (race conditions)
+- Helping refine and structure this README for clarity and completeness
+
+
+All architectural decisions, final implementations, and integrations were done by me.
+
 ---
 
 # Screenshots of the project
